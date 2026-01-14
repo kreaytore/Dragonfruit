@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://b2pjucjuven8h"]
 
 [ext_resource type="Theme" uid="uid://bg0sne68c2bf6" path="res://addons/Dragonfruit/system/tool_theme/dragonfruit_theme.tres" id="1_ao5gd"]
-[ext_resource type="Script" uid="uid://b0jy0528jf6wy" path="res://addons/Dragonfruit/system/scripts/dragonfruit.gd" id="1_pcfgb"]
-[ext_resource type="Texture2D" uid="uid://dubd06jvrwbgl" path="res://addons/Dragonfruit/system/tool_theme/banner.jpg" id="2_n27hg"]
-[ext_resource type="Script" uid="uid://tebwr2vg6wet" path="res://addons/Dragonfruit/system/scripts/resource_picker.gd" id="4_upky5"]
+[ext_resource type="Script" uid="uid://cfccpf660xved" path="res://addons/Dragonfruit/system/scripts/dragonfruit.gd" id="1_pcfgb"]
+[ext_resource type="Texture2D" uid="uid://c6dwgpy1lu4lv" path="res://addons/Dragonfruit/system/tool_theme/banner.jpg" id="2_n27hg"]
+[ext_resource type="Script" uid="uid://dfnqew2hr1ypj" path="res://addons/Dragonfruit/system/scripts/resource_picker.gd" id="4_upky5"]
 
 [node name="Dragonfruit" type="Control"]
 layout_mode = 3
@@ -60,14 +60,14 @@ size_flags_vertical = 3
 [node name="DF_Title" type="RichTextLabel" parent="Panel/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 8
 theme_override_constants/line_separation = -4
+theme_override_constants/outline_size = 8
 theme_override_font_sizes/normal_font_size = 32
 bbcode_enabled = true
 text = "[center][wave][color=ff0054]Dragonfruit[/color]
 Code Editor Wallpaper
-[font_size=14]Ver. 1.1
-Developed by @Kreay_Panem[/font_size][/wave][/center]"
+[font_size=14]Ver. 1.1.1
+Developed by @Kreaytore[/font_size][/wave][/center]"
 fit_content = true
 
 [node name="DF_Banner" type="TextureRect" parent="Panel/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]

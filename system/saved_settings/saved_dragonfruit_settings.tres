@@ -1,16 +1,6 @@
 [gd_resource type="Resource" script_class="DragonfruitSettings" load_steps=2 format=3 uid="uid://drwe3k4rxajmr"]
 
-[ext_resource type="Script" uid="uid://bikttuuumqt0i" path="res://addons/Dragonfruit/system/scripts/dragonfruit_saved_settings.gd" id="1_isgdq"]
+[ext_resource type="Script" uid="uid://d1n3s36eljq2h" path="res://addons/Dragonfruit/system/scripts/dragonfruit_saved_settings.gd" id="1_isgdq"]
 
 [resource]
 script = ExtResource("1_isgdq")
-autostart_slides_vid = true
-saved_bg_mode = 0
-saved_slideshow_switch_time = 1
-saved_vid_method = 0
-saved_custom_video_path = ""
-saved_bus = "Master"
-saved_video_volume = -25.0
-saved_modulate_color = Color(0.137255, 0.137255, 0.137255, 1)
-saved_h_axis_stretch = 0
-saved_v_axis_stretch = 0
